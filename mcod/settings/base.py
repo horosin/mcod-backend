@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'constance.backends.database',
     'rangefilter',
     'modeltrans',
+    'easyaudit',
     # Our apps
     'mcod.organizations',
     'mcod.categories',
@@ -74,6 +75,7 @@ MIDDLEWARE = [
     'mcod.lib.middleware.PostgresConfMiddleware',
     'mcod.lib.middleware.UserTokenMiddleware',
     'mcod.lib.middleware.ComplementUserDataMiddleware',
+    'easyaudit.middleware.easyaudit.EasyAuditMiddleware',
 ]
 
 ROOT_URLCONF = 'mcod.urls'
@@ -654,3 +656,6 @@ APM_URL = 'https://apm.dane.gov.pl'
 
 PASSWORD_RESET_PATH = '/user/reset-password/%s/'
 EMAIL_VALIDATION_PATH = '/user/verify-email/%s/'
+
+DJANGO_EASY_AUDIT_WATCH_MODEL_EVENTS = False
+DJANGO_EASY_AUDIT_WATCH_AUTH_EVENTS = False
