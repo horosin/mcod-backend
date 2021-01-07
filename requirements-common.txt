@@ -1,7 +1,7 @@
 pyyaml==5.1
 wheel==0.33.1
 ipython==7.5
-lxml==4.2.5
+lxml==4.6.2
 html5lib==1.0.1
 urllib3==1.24.1
 Cython==0.29.4
