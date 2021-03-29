@@ -35,7 +35,7 @@ goodtables==2.1.4
 goodtables[ods]==2.1.4
 tqdm==4.28.1
 deepdiff==3.3.0
-pygments==2.3.0
+pygments==2.7.4
 passlib==1.7.1
 markdown2==2.3.5
 marshmallow-jsonapi==0.21.0
