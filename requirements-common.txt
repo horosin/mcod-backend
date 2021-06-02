@@ -37,7 +37,7 @@ tqdm==4.28.1
 deepdiff==3.3.0
 pygments==2.3.0
 passlib==1.7.1
-markdown2==2.3.5
+markdown2==2.4.0
 marshmallow-jsonapi==0.21.0
 json-api-doc==0.7.0
 redis==2.10.6
