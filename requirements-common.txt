@@ -57,7 +57,7 @@ django-nested-admin==3.1.2
 django-autocomplete-light==3.3.2
 django-admin-rangefilter==0.3.12
 dal_admin_filters==0.2.2
-django-celery-results==1.0.1
+django-celery-results==2.4.0
 django-celery-beat==1.1.1
 django-cache-memoize==0.1.6
 django-tqdm==0.0.3
