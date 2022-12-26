@@ -1,5 +1,5 @@
 pyyaml==5.1
-wheel==0.33.1
+wheel==0.38.1
 ipython==7.5
 lxml==4.2.5
 html5lib==1.0.1
